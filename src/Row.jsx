@@ -40,7 +40,7 @@ const Row = ({ data, components, handleDrop, path }) => {
       {data.id}
       <div className="columns">
         {data.children.map((column, index) => {
-          const currentPath = `${path}-${index}`;
+          const currentPath = `${path}`;
 
           return (
             <React.Fragment key={column.id}>

@@ -5,7 +5,7 @@ const SideBarItem = ({ data }) => {
   const [{ opacity }, drag] = useDrag({
     item: data,
     collect: monitor => ({
-      opacity: monitor.isDragging() ? 0.4 : 1
+      opacity: monitor.isDragging() ? 0.1 : 1
     })
   });
   

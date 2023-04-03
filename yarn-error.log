@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rokib\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/material @emotion/react @emotion/styled
+
+PATH: 
+  C:\Users\rokib\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rokib\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files\nodejs;C:\xampp\php;C:\composer;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\rokib\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CodeBlocks\MinGW\bin;C:\Users\rokib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\rokib\AppData\Roaming\npm;C:\Users\rokib\AppData\Local\Android\Sdk\platform-tools;C:\Users\rokib\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\rokib\AppData\Local\Yarn\Cache\v6\npm-@react-dnd-asap-4.0.1-5291850a6b58ce6f2da25352a64f1b0674871aab-integrity\node_modules\@react-dnd\asap'
+
+npm manifest: 
+  {
+    "name": "dustbin-proto-dnd-reordering-nested-column-to-diff-parent-forked-modified",
+    "main": "src/index.js",
+    "description": "",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "classnames": "2.2.6",
+      "immutability-helper": "^3.0.0",
+      "lodash": "4.17.15",
+      "react": "16.8.4",
+      "react-dnd": "10.0.2",
+      "react-dnd-html5-backend": "10.0.2",
+      "react-dom": "16.8.4",
+      "react-frame-component": "^4.1.0",
+      "react-scripts": "2.1.8",
+      "shortid": "2.2.15"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "keywords": []
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
